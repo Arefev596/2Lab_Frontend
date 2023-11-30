@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    flex-grow: 1;
+}
+
+.swiper {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+
+.swiper-wrapper {
+    box-sizing: content-box;
+}
+
+.swiper-slide{
+    display: flex;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.swiper-button-prev::after, .swiper-button-next::after{
+    font-size: 30px;
+}
+
+
