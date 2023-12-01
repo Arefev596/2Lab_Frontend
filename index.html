@@ -7,6 +7,7 @@
     <title>Лабораторная №2</title>
     <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="./style/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
@@ -24,6 +25,31 @@
         </div>    
     </div>
     <script src="./js/swiper-bundle.min.js"></script>
+    
+    <div class="container text-center">
+        <form>
+            <div class="row">
+                <div class="col-md-6">
+                    <select class="form-select mb-3" id="type_deposit">
+                    <option selected>Вид вклада</option>
+                    <option>Пополняемый</option>
+                    <option>Срочный</option>
+                    </select>
+                    <select class="form-select mb-3" id="long_deposit">
+                    <option selected>Срок вклада</option>
+                    </select>
+                    <input type="text" class="form-control mb-3" id = "sum" placeholder="Сумма, руб">
+                    <button type="button" class="btn btn-primary" id="calc">Рассчитать</button>
+                </div>
+                <div class="col-md-6" id="result">Выберите необходимые параметры и нажмите "Рассчитать"</div>
+            </div>
+        </form>
+    </div>
+    
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.7.0.slim.min.js"></script>
     <script src="./js/index.js"></script>
+ 
 </body>
 </html>
